@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">LostAndFind</string>
+    <string name="create_new_advert">Create new advert</string>
+    <string name="show_all_items">Show all items</string>
+    <string name="lost">Lost</string>
+    <string name="found">Found</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="description">Description</string>
+    <string name="date">Date</string>
+    <string name="location">Location</string>
+    <string name="save">SAVE</string>
+    <string name="remove">REMOVE</string>
+</resources>
