@@ -17,15 +17,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // 初始化按钮
+
         createButton = findViewById(R.id.createbutton);
         showButton = findViewById(R.id.showbutton);
+        Button btnShowOnMap = findViewById(R.id.btn_show_on_map);
 
-        // 设置按钮点击事件监听器
+      
         createButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // 当点击创建按钮时，启动 AddItemActivity
+
                 Intent intent = new Intent(MainActivity.this, AddItemActivity.class);
                 startActivity(intent);
             }
@@ -34,9 +35,15 @@ public class MainActivity extends AppCompatActivity {
         showButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // 当点击展示按钮时，启动 ShowItemActivity
+
                 Intent intent = new Intent(MainActivity.this, ShowItemActivity.class);
                 startActivity(intent);
+            }
+        });
+        btnShowOnMap.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, MapActivity.class));
             }
         });
     }

@@ -2,6 +2,7 @@
     <string name="app_name">LostAndFind</string>
     <string name="create_new_advert">Create new advert</string>
     <string name="show_all_items">Show all items</string>
+    <string name="show_on_map">Show on map</string>
     <string name="lost">Lost</string>
     <string name="found">Found</string>
     <string name="name">Name</string>
@@ -10,5 +11,7 @@
     <string name="date">Date</string>
     <string name="location">Location</string>
     <string name="save">SAVE</string>
+    <string name="get_current_location">Get Current Location</string>
     <string name="remove">REMOVE</string>
+    <string name="google_maps_api_key">AIzaSyBWhL_-bMiDW8hgDVf3e59mB4K0KP4jZDc</string>
 </resources>

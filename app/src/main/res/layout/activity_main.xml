@@ -13,18 +13,29 @@
         app:titleTextColor="#ffff0000"
         app:titleMarginStart="120dp"/>
 
-    <Button
+    <android.widget.Button
         android:id="@+id/createbutton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/create_new_advert"
-        android:layout_marginTop="200dp"/>
+        android:layout_marginTop="200dp"
+        android:background="@drawable/green_rectangle_button"
+        />
 
-    <Button
+    <android.widget.Button
         android:id="@+id/showbutton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/show_all_items" />
+        android:text="@string/show_all_items"
+        android:background="@drawable/green_rectangle_button"
+        android:layout_marginTop="20dp"/>
+    <android.widget.Button
+        android:id="@+id/btn_show_on_map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/show_on_map"
+        android:background="@drawable/green_rectangle_button"
+        android:layout_marginTop="20dp"/>
 
 
 

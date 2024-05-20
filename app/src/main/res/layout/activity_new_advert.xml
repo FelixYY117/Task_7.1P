@@ -75,10 +75,18 @@
         android:hint="@string/location"
         android:inputType="text" />
 
-    <Button
+    <android.widget.Button
+        android:id="@+id/btn_get_current_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/get_current_location"
+        android:background="@drawable/green_rectangle_button"/>
+    <android.widget.Button
         android:id="@+id/saveButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/save" />
+        android:text="@string/save"
+        android:background="@drawable/green_rectangle_button"
+        android:layout_marginTop="20dp"/>
 
 </LinearLayout>
